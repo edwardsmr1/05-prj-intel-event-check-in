@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -82,7 +82,41 @@
         </div>
       </div>
     </div>
+    <!-- Celebration Banner -->
+    <div
+      id="celebrationMessage"
+      style="
+        display: none;
+        margin-top: 20px;
+        padding: 15px;
+        background-color: #fff3cd;
+        color: #856404;
+        border: 1px solid #ffeeba;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: bold;
+      "
+    ></div>
 
+    <!-- Attendee List Section -->
+    <div class="attendee-container" style="margin-top: 25px">
+      <label>Attendee Log</label>
+      <ul
+        id="attendeeList"
+        style="
+          list-style-type: none;
+          padding: 0;
+          max-height: 150px;
+          overflow-y: auto;
+          margin-top: 8px;
+          border: 1px solid #e9ecef;
+          border-radius: 5px;
+          background: #f8f9fa;
+        "
+      >
+        <!-- Dynamically populated attendees -->
+      </ul>
+    </div>
     <footer class="footer">
       &copy; 2025 Intel •
       <a
